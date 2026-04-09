@@ -17,8 +17,6 @@
 
 ### Полный вариант
 
-```bash
-
 git add README.md
 
 git commit -m "описание изменений"
