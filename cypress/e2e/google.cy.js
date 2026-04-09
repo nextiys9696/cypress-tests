@@ -3,5 +3,6 @@ describe('Поиск в Google', () => {
     cy.visit('https://www.google.com')
     cy.get('textarea[name="q"]').type('Cypress{enter}')
     cy.contains('Cypress').should('be.visible')
+    //тестовый коммент в google тест
   })
 })
