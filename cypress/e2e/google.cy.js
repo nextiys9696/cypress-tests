@@ -5,5 +5,6 @@ describe('Поиск в Google', () => {
     cy.contains('Cypress').should('be.visible')
     //тестовый коммент в google тест.
     //еще коомент
+    //ЕЩЕ КОММЕНТ ТЕСТ
   })
 })
