@@ -4,5 +4,6 @@ describe('Поиск в Google', () => {
     cy.get('textarea[name="q"]').type('Cypress{enter}')
     cy.contains('Cypress').should('be.visible')
     //тестовый коммент в google тест.
+    //еще коомент
   })
 })
